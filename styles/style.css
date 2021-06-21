@@ -1,0 +1,55 @@
+body {
+    background: url(https://wonderfulengineering.com/wp-content/uploads/2014/10/time-wallpaper-13.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.timer__blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.timer__item {
+    font-size: 25px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 250px;
+    font-size: 30px;
+    color: white;
+}
+
+.timer__item + .timer__item {
+    margin-left: 40px;
+    
+}
+.timer {
+    background-color: white;
+    box-shadow: 0px 0px 50px #fff;
+    width: 430px;
+    margin-left: 500px;
+    height: 120px;
+    background-color: black;
+
+}
+
+#days {
+    margin-left: 13px;
+}
+#hours {
+    margin-left: 15px;
+
+}
+#minutes {
+    margin-left: 18px;
+
+}
+#seconds {
+    margin-left: 25px;
+
+}
+.timer__item {
+    color: white;
+}
